@@ -1,5 +1,7 @@
 # Lixeiras Inteligentes - Longest Wave Tech
 
+>Status: Em desenvolvimento ⚙️
+>
 ## Visão Geral
 
 As lixeiras inteligentes da Longest Wave Tech possuem um sistema inteligente de gerenciamento de resíduos que utiliza a tecnologia IoT (Internet das Coisas) para monitorar, alertar e melhorar o gerenciamento de lixeiras. Este sistema é projetado para melhorar a eficiência e reduzir o esforço humano envolvido na coleta e monitoramento de resíduos sólidos por meio da integração de dispositivos IoT.
@@ -7,19 +9,22 @@ As lixeiras inteligentes da Longest Wave Tech possuem um sistema inteligente de 
 ## Draft da arquitetura
 ![Draft da Arquitetura](img/arquitetura.png)
 
-## Componentes Utilizados
+## Equipamentos utilizados 🧰 : 
 
-- Módulo ESP32 4G
-- Sensor Ultrassônico HC-SR04
-- Módulo Buzzer
-- Display LCD I2C
-- Sensor Infravermelho (IR)
-- Microservo Motor
-- Protoboard
-- Jumpers
-- Lixeiras
+<table> 
+  <tr>
+    <td>Módulo ESP32 4G</td>
+    <td>Display LCD I2C</td>
+    <td>Sensor Ultrassônico HC-SR04</td>
+    <td>Módulo Buzzer</td>
+    <td>Sensor Infravermelho (IR)</td>
+    <td>Microservo Motor</td>
+    <td>Protoboard</td>
+    <td>ESP32-CAM</td>
+  </tr>
+</table>
 
-## Funcionamento
+## Funcionamento 🛠️
 
 São utilizados sensores ultrassônicos para monitorar a altura do lixo na lixeira. O transmissor ultrassônico emite uma onda ultrassônica que viaja pelo ar e, quando atinge qualquer material, é refletida de volta em direção ao sensor.
 
@@ -35,7 +40,7 @@ Além disso, um sensor infravermelho (IR) é utilizado para detecção de movime
 
 O projeto também inclui um website dedicado. Este website contém um painel de controle com informações sobre as diferentes lixeiras, sua capacidade atual e status de ocupação. O painel exibe a localização das lixeiras em um mapa para uma melhor visualização. Os dados são atualizados regularmente e fornecem uma visão abrangente do estado das lixeiras.
 
-## Requisitos do Sistema
+## Requisitos do Sistema ⚠️
 
 - Comunicação com a Internet para transmissão de dados.
 - Utilização do Google Maps para localização e cálculo de rotas.
@@ -44,7 +49,7 @@ O projeto também inclui um website dedicado. Este website contém um painel de 
 - Utilização de domínio de site na internet para acesso aos dados.
 - Utilização de conexão 4G/3G para comunicação entre dispositivos.
 
-## Instruções de Uso
+## Instruções de Uso ❗
 
 ### Instruções de Uso para Cidadãos:
 - Consultar Localização e Disponibilidade das Caçambas
