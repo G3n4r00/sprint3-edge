@@ -75,3 +75,9 @@ O projeto também inclui um website dedicado. Este website contém um painel de 
 - Siga a rota, coletando os resíduos das caçambas de lixo ao longo do caminho.
 - Marque cada caçamba coletada no sistema para acompanhamento.
 - Após a coleta da última caçamba da rota, retorne à central ou siga para a próxima rota, visando a eficiência no uso de recursos.
+
+###Equipe 
+- Gabriel Genaro - RM551986
+- Ricardo Akira - RM551447
+- Paloma Mirela - RM551321
+- Felipe Lopes - RM551464
