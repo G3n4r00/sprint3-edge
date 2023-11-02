@@ -1,6 +1,6 @@
 # Lixeiras Inteligentes - Longest Wave Tech
 
->Status: Em desenvolvimento ⚙️
+>Status: Protótipo Funcional ⚙️
 >
 ## Visão Geral
 
@@ -43,7 +43,7 @@ São utilizados sensores ultrassônicos para monitorar a altura do lixo na lixei
 - O Display LCD I2C exibe a capacidade atual da lixeira, permitindo uma visualização conveniente.
 
 
-## Website e Dashboard
+## Website e Dashboard 📊
 
 O projeto também inclui um website dedicado. Este website contém um painel de controle com informações sobre as diferentes lixeiras, sua capacidade atual e status de ocupação. O painel exibe a localização das lixeiras em um mapa para uma melhor visualização. Os dados são atualizados regularmente e fornecem uma visão abrangente do estado das lixeiras.
 
@@ -84,7 +84,7 @@ O projeto também inclui um website dedicado. Este website contém um painel de 
 - Marque cada caçamba coletada no sistema para acompanhamento.
 - Após a coleta da última caçamba da rota, retorne à central ou siga para a próxima rota, visando a eficiência no uso de recursos.
 
-###Equipe 
+##Equipe 
 - Gabriel Genaro - RM551986
 - Ricardo Akira - RM551447
 - Paloma Mirela - RM551321
