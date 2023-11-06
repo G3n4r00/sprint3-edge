@@ -37,6 +37,8 @@ O principal objetivo do projeto Clean Can da Longest Wave Tech é revolucionar a
 
 São utilizados sensores ultrassônicos para monitorar a altura do lixo na lixeira. O sensor ultrassônico emite uma onda ultrassônica que viaja pelo ar e, quando atinge qualquer material, é refletida de volta em direção ao sensor.
 
+Quando os dados são recolhidos e processados pelo ESP32 esses dados são anviados via MQTT ao FIWARE, de onde podemos pegar esses dados e exibi-los através de nosso dashboard, esses dados são coletados e registrados por dispositivos criados no prórprio FIWARE
+
 ### Buzzer, Display LCD 
 
 - Quando a capacidade da lixeira atinge um determinado limite (por exemplo, 75%), o módulo Buzzer é ativado, emitindo um sinal sonoro para alertar que a lixeira está quase cheia.
