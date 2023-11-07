@@ -2,7 +2,7 @@ import requests
 import plotly.graph_objects as go
 from IPython.display import HTML, display
 
-# Função para obter os dados de distância a partir da API
+# Função para obter os dados de distância a partir da API utilizando os meios mqtt
 def obter_dados_distancia(lastN):
     url = f"http://46.17.108.113:8666/STH/v1/contextEntities/type/Cleancam/id/urn:ngsi-ld:Cleancam:002/attributes/level?lastN={lastN}"
     headers = {
